@@ -19,13 +19,13 @@ if game.PlaceId == 698448212 then
 end
 
 -- Create the main window
-local Window = OrionLib:MakeWindow({Name = "Ro-Beats V.1.0 Beta | Maxwell Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Ro-Beats"})
+local Window = OrionLib:MakeWindow({Name = "Ro-Beats V.1.1 | Maxwell Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Ro-Beats"})
 
 -- Add a notification
 local success, _ = pcall(function()
     OrionLib:MakeNotification({
         Name = "Hello!",
-        Content = "Hello, thank you for using our script Version V.1.0",
+        Content = "Hello, thank you for using our script Version V.1.1",
         Image = "rbxassetid://4483345998",
         Time = 5
     })
@@ -110,5 +110,5 @@ local autoPlayerToggle = MainSection:AddToggle({
 
 -- Add paragraphs to the Credits section
 CreditsSection:AddParagraph("Auto Player - Unknown", "Credits to the creator of the auto player")
-CreditsSection:AddParagraph("Ui - Orion Hub", "Ngl, dont bully me pls..")
+CreditsSection:AddParagraph("Ui - Orion Hub", "Ngl, dont bully me pls ;–;")
 CreditsSection:AddParagraph("Edited Script - Maxwell", "REEEEEEEE-")
